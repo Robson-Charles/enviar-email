@@ -26,7 +26,7 @@ def enviar_email():
     email_msg = MIMEMultipart()
     email_msg['Subject'] = 'fazendo um teste em google'
     email_msg['From'] = email #importei meu email de outro arquivo para nao ficar exposto
-    email_msg['To'] = 'hitsu.4586@gmail.com; jhannajackson12@gmail.com'
+    email_msg['To'] = 'exemplo@gmail.com; exemplo2@gmail.com'
     email_msg.attach(MIMEText(body, 'plain'))#caso queira um texto do estilo Html so trocar de plain para html
 #comenta daqui ate
     #abre o arquivo em modo binario
